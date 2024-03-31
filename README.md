@@ -10,5 +10,5 @@
 # Leet-translator
 - work in progress
 
-#Music Bot
+# Music Bot
 - I am gonna add the repo soon inside
