@@ -1,14 +1,14 @@
-#So1337 Repo
+# So1337 Repo
 
-this is the repo for all So1337 project
+- this is the repo for all So1337 project
 
-#Website
+# Website
 - react
 - tailwindcss
-already installed
+- already installed
 
-#Leet-translator
-work in progress
+# Leet-translator
+- work in progress
 
-#Music Bot
-I am gonna add the repo soon inside
+# Music Bot
+- I am gonna add the repo soon inside
