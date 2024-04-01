@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
         {/* Header content */}
         <h1>Welcome to My App</h1>
       </header>
-      <main>
+      <main className='lg:px-[15%]'>
         {/* Main content */}
         {children}
       </main>
