@@ -16,5 +16,5 @@
 - axios
 
 # Devs
-- Robin
+- Raimon
 - Me
