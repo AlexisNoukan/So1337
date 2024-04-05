@@ -14,6 +14,8 @@
 - telegram
 - dotenv
 - axios
+- Solana
+- node-telegram-bot-api
 
 # Devs
 - Raimon
