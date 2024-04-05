@@ -1,39 +1,79 @@
-// Import necessary modules
 require('dotenv').config();
-const TelegramBot = require('node-telegram-bot-api');
+const { Telegraf, Markup } = require('telegraf')
 
-// Replace 'YOUR_BOT_TOKEN' with the token you received from BotFather
-const token = process.env.API_KEY_T;
-const bot = new TelegramBot(token, { polling: true });
+const token = process.env.API_KEY_T
+if (token === undefined) {
+  throw new Error('BOT_TOKEN must be provided!')
+}
 
-// Command: /start
-bot.onText(/\/start/, (msg) => {
-    const chatId = msg.chat.id;
-    bot.sendMessage(chatId, 'Welcome to your Telegram Bot! Type /menu to see the menu.');
-});
+const bot = new Telegraf(token)
 
-// Command: /menu
-bot.onText(/\/menu/, (msg) => {
-    const chatId = msg.chat.id;
-    const menuOptions = {
-        reply_markup: {
-            keyboard: [['/hello', '/goodbye']],
-            resize_keyboard: true,
-            one_time_keyboard: true,
-        },
-    };
+bot.use(Telegraf.log())
 
-    bot.sendMessage(chatId, 'Choose an option:', menuOptions);
-});
+bot.command('inline', (ctx) => {
+    return ctx.reply('<b>Coke</b> or <i>Pepsi?</i>', {
+      parse_mode: 'HTML',
+      ...Markup.inlineKeyboard([
+        Markup.button.callback('Coke', 'Coke'),
+        Markup.button.callback('Pepsi', 'Pepsi')
+      ])
+    })
+  })
+  
+  bot.command('random', (ctx) => {
+    return ctx.reply(
+      'random example',
+      Markup.inlineKeyboard([
+        Markup.button.callback('Coke', 'Coke'),
+        Markup.button.callback('Dr Pepper', 'Dr Pepper', Math.random() > 0.5),
+        Markup.button.callback('Pepsi', 'Pepsi')
+      ])
+    )
+  })
+  
+  bot.command('caption', (ctx) => {
+    return ctx.replyWithPhoto({ url: 'https://picsum.photos/200/300/?random' },
+      {
+        caption: 'Caption',
+        parse_mode: 'Markdown',
+        ...Markup.inlineKeyboard([
+          Markup.button.callback('Plain', 'plain'),
+          Markup.button.callback('Italic', 'italic')
+        ])
+      }
+    )
+  })
+  
+  bot.hears(/\/wrap (\d+)/, (ctx) => {
+    return ctx.reply(
+      'Keyboard wrap',
+      Markup.keyboard(['one', 'two', 'three', 'four', 'five', 'six'], {
+        columns: parseInt(ctx.match[1])
+      })
+    )
+  })
+  
+  bot.action('Dr Pepper', (ctx, next) => {
+    return ctx.reply('👍').then(() => next())
+  })
+  
+  bot.action('plain', async (ctx) => {
+    await ctx.answerCbQuery()
+    await ctx.editMessageCaption('Caption', Markup.inlineKeyboard([
+      Markup.button.callback('Plain', 'plain'),
+      Markup.button.callback('Italic', 'italic')
+    ]))
+  })
+  
+  bot.action('italic', async (ctx) => {
+    await ctx.answerCbQuery()
+    await ctx.editMessageCaption('_Caption_', {
+      parse_mode: 'Markdown',
+      ...Markup.inlineKeyboard([
+        Markup.button.callback('Plain', 'plain'),
+        Markup.button.callback('* Italic *', 'italic')
+      ])
+    })
+  })
 
-// Command: /hello
-bot.onText(/\/hello/, (msg) => {
-    const chatId = msg.chat.id;
-    bot.sendMessage(chatId, 'Hello! 👋');
-});
-
-// Command: /goodbye
-bot.onText(/\/goodbye/, (msg) => {
-    const chatId = msg.chat.id;
-    bot.sendMessage(chatId, 'Goodbye! 👋');
-});
+  bot.launch()
