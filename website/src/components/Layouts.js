@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
     return (
 
 	<div className="overflow-scroll h-screen z-0 ">
-            <MatrixRainingLetters custom_class="absolute" />
+            <MatrixRainingLetters custom_class="absolute h-screen w-full" />
 	    <main className='flex flex-col items-center '>
 		{/* Main content */}
 		{children}

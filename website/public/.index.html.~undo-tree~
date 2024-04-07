@@ -1,0 +1,7 @@
+(undo-tree-save-format-version . 1)
+"54960ebad770b2349ce210f9dbcab48f8d28a45c"
+[nil nil nil nil (26131 1253 57284 557000) 0 nil]
+([nil nil (("React App" . 1162) (undo-tree-id0 . -8) (undo-tree-id1 . -8) (undo-tree-id2 . -8) (undo-tree-id3 . -8) (undo-tree-id4 . -9) (undo-tree-id5 . -9) (undo-tree-id6 . -8) 1170 (t 26125 377 527230 702000)) nil (26131 1253 57283 227000) 0 nil])
+([nil current ((1162 . 1168)) nil (26131 1265 840775 30000) 0 nil])
+([nil nil ((907 . 910) (t 26131 1253 61006 837000)) ((#("/fa" 0 3 (font-lock-face web-mode-comment-face tag-type comment)) . 907) (undo-tree-id7 . -2) (undo-tree-id8 . -2) (undo-tree-id9 . -2) (undo-tree-id10 . -2) (undo-tree-id11 . -2) (undo-tree-id12 . -2) (undo-tree-id13 . -2) (undo-tree-id14 . -2) (undo-tree-id15 . -2) (undo-tree-id16 . -2) (t 26131 1263 414371 637000)) (26131 1263 411026 210000) 0 nil])
+nil

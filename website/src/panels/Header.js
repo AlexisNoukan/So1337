@@ -2,6 +2,8 @@ import React from 'react';
 
 const Header = () => {
     return (
+
+        <div className='flex flex-col w-full justify-center items-center bg-opacity-0  relative mb-5 '>
 	<header className="flex justify-center my-6 ">
             {/* Header content */}
             <div className="flex flex-col py-6  w-full bg-black relative z-10 items-center justify-center">
@@ -16,6 +18,7 @@ const Header = () => {
 		</button>
             </div>
 	</header>
+	</div>
     );
 };
 

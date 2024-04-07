@@ -11,6 +11,15 @@ module.exports = {
       },
       backgroundImage: {
         'header': "url('assets/img/logo_h.jpg')",
+        'dex': "url('assets/img/dex.webp')",
+        'telegram': "url('assets/img/telegram.png')",
+        'x': "url('assets/img/x.png')",
+        'slogan': "url('assets/img/slogan.webp)",
+        'ownership': "url('assets/img/ownership.png')",
+        'burn': "url('assets/img/burn.jpg')",
+        'lp': "url('assets/img/lp.png')",
+        'token': "url('assets/img/token.png')",
+        'head': "url('assets/img/head.webp')",
       }
     },
   },
