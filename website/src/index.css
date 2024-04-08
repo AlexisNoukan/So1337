@@ -524,7 +524,6 @@
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
-    font-family: monospace;
 }
 .typing-jeets {
     width: 20vw;
@@ -532,7 +531,6 @@
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
-    font-family: monospace;
 }
 
 @keyframes typing {
@@ -546,3 +544,77 @@
 	border-color: transparent
     }
 }
+
+
+
+/* decode animation */
+.decode-text {
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+}
+.space {
+  display: inline-block;
+  width: 10px;
+}
+.text-animation {
+    font-family:roboto;
+    font-weight:300;
+    font-size:35px;
+  display: inline-block;
+  position: relative;
+  color: transparent;
+  text-transform: uppercase;
+  &:before {
+    content: "";
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: green;
+    width: 0;
+    height: 1.2em;
+    -webkit-transform: translate(-50%, -55%);
+    -ms-transform: translate(-50%, -55%);
+    transform: translate(-50%, -55%);
+  }
+
+  &.state-1 {
+    &:before {
+      width: 1px;
+    }
+  }
+  &.state-2 {
+    &:before {
+      width: 0.9em;
+    }
+  }
+  &.state-3 {
+    color: white;
+    &:before {
+      width: 0;
+    }
+  }
+}
+
+//custom list styles
+ul.reset,
+ul.reset li,
+ul.reset ul li {
+   margin:0;
+   padding: 0;
+   text-indent: 0;
+   list-style-type: 0;
+}
+li {
+}
+.done::marker {
+  content: "✅";
+}
+.ip::marker {
+  content: "⏳";
+}
+.invader::marker {
+  content: "👾";
+}
+

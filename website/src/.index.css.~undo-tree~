@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"169b8e2e5a74223679c97657176aff0fbd81b1f6"
+"d6584bc6e7cd6e7ebfe192f6527644d40a46c4f0"
 [nil nil nil nil (26130 43047 403938 307000) 0 nil]
 ([nil nil ((60 . 61) (59 . 60) (t 26125 377 527230 702000) 58) nil (26130 43047 403937 867000) 0 nil])
 ([nil nil ((243 . 244) (nil rear-nonsticky nil 242 . 243) (nil part-side css 235 . 243) (nil part-side css 234 . 235) (nil part-token string 234 . 235) (nil syntax-table (15) 234 . 235) (nil font-lock-face web-mode-css-string-face 234 . 235) (nil part-side css 229 . 234) (nil part-token string 229 . 234) (nil font-lock-face web-mode-css-string-face 229 . 234) (nil part-side css 228 . 229) (nil part-token string 228 . 229) (nil syntax-table (15) 228 . 229) (nil font-lock-face web-mode-css-string-face 228 . 229) (nil part-side css 227 . 228) (nil part-side css 221 . 227) (nil face web-mode-css-function-face 221 . 227) (nil part-side css 199 . 221) (nil part-side css 196 . 199) (nil face web-mode-css-function-face 196 . 199) (nil part-side css 195 . 196) (nil part-side css 191 . 195) (nil face web-mode-css-property-name-face 191 . 195) (nil part-side css 180 . 191) (nil part-side css 167 . 180) (nil face web-mode-css-property-name-face 167 . 180) (nil part-side css 157 . 167) (nil part-side css 145 . 157) (nil face web-mode-css-property-name-face 145 . 157) (nil part-side css 132 . 145) (nil part-side css 121 . 132) (nil face web-mode-css-property-name-face 121 . 132) (nil part-side css 115 . 121) (nil part-side css 114 . 115) (nil part-token string 114 . 115) (nil syntax-table (15) 114 . 115) (nil font-lock-face web-mode-css-string-face 114 . 115) (nil part-side css 108 . 114) (nil part-token string 108 . 114) (nil font-lock-face web-mode-css-string-face 108 . 114) (nil part-side css 107 . 108) (nil part-token string 107 . 108) (nil syntax-table (15) 107 . 108) (nil font-lock-face web-mode-css-string-face 107 . 108) (nil part-side css 106 . 107) (nil part-side css 94 . 106) (nil face web-mode-css-property-name-face 94 . 106) (nil part-side css 87 . 94) (nil part-side css 77 . 87) (nil face web-mode-css-at-rule-face 77 . 87) (nil part-side css 73 . 77) (nil part-side css 61 . 73) (nil face web-mode-css-selector-tag-face 61 . 73) (61 . 243)) nil (26130 43047 403933 957000) 0 nil])
@@ -937,6 +937,234 @@ nil
 ([nil nil ((7082 . 7083) (#("5" 0 1 (part-side css)) . 7082) (undo-tree-id616 . -1) (undo-tree-id617 . -1) (undo-tree-id618 . -1) (undo-tree-id619 . -1) (t 26130 62181 584940 78000)) nil (26130 62235 5877 725000) 0 nil])
 ([nil nil ((7082 . 7083) (#("4" 0 1 (part-side css)) . 7082) (undo-tree-id620 . -1) (t 26130 62235 11689 953000)) nil (26130 62258 755214 991000) 0 nil])
 ([nil nil ((7083 . 7084) (#("0" 0 1 (part-side css)) . 7083) (undo-tree-id621 . -1) (t 26130 62258 761726 940000)) nil (26130 62263 298660 334000) 0 nil])
-([nil current ((#("    font-size: 2em;
-" 0 4 (part-side css) 4 14 (face web-mode-css-property-name-face part-side css) 14 20 (part-side css)) . 7481) (undo-tree-id622 . -19) (undo-tree-id623 . -12) (undo-tree-id624 . -12) (undo-tree-id625 . -12) (undo-tree-id626 . -12) (undo-tree-id627 . -20) 7493 (t 26130 62263 305067 350000)) nil (26130 62313 844514 664000) 0 nil])
+([nil nil ((#("    font-size: 2em;
+" 0 4 (part-side css) 4 14 (face web-mode-css-property-name-face part-side css) 14 20 (part-side css)) . 7481) (undo-tree-id622 . -19) (undo-tree-id623 . -12) (undo-tree-id624 . -12) (undo-tree-id625 . -12) (undo-tree-id626 . -12) (undo-tree-id627 . -20) 7493 (t 26130 62263 305067 350000)) nil (26131 39138 171512 794000) 0 nil])
+([nil nil ((7598 . 7599) (t 26130 62313 851812 738000) 7598) nil (26131 39140 914444 919000) 0 nil] [nil nil ((nil rear-nonsticky nil 7611 . 7612) (nil part-side css 7598 . 7612) (7598 . 7612) (t 26130 62313 851812 738000)) ((#("{ myFunction }" 0 13 (part-side css) 13 14 (part-side css rear-nonsticky nil)) . 7598) (undo-tree-id2 . 2) (undo-tree-id3 . -13) (undo-tree-id4 . -12) (undo-tree-id5 . -12) (nil rear-nonsticky t 7611 . 7612)) (26131 39137 990868 881000) 0 nil])
+([nil nil ((7599 . 7601)) nil (26131 39140 914441 49000) 0 nil])
+([nil nil ((7610 . 7612)) ((#("uu" 0 2 (part-side css)) . 7610) (undo-tree-id0 . -1) (undo-tree-id1 . -1)) (26131 39137 990414 761000) 0 nil])
+([nil nil ((7601 . 7603) (t 26131 39140 914606 753000)) nil (26131 39149 369107 464000) 0 nil])
+nil
+([nil nil ((#("/" 0 1 (font-lock-face web-mode-css-comment-face part-token comment part-side css)) . -7602) (undo-tree-id22 . -1) (undo-tree-id23 . -1) 7603) nil (26131 39149 369107 84000) 0 nil])
+([nil nil ((7602 . 7605)) nil (26131 39149 369106 294000) 0 nil])
+([nil nil ((#("d" 0 1 (part-side css)) . -7604) (undo-tree-id20 . -1) (undo-tree-id21 . -1) 7605) nil (26131 39149 369105 944000) 0 nil])
+([nil nil ((7604 . 7606)) nil (26131 39149 369105 114000) 0 nil])
+([nil nil ((#("s" 0 1 (part-side css)) . -7604) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (#("z" 0 1 (part-side css)) . -7605) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -1) (undo-tree-id17 . -1) (undo-tree-id18 . -1) (undo-tree-id19 . -1) 7606) nil (26131 39149 369104 514000) 0 nil])
+([nil nil ((7604 . 7609)) nil (26131 39149 369100 204000) 0 nil])
+([nil nil ((7609 . 7612)) nil (26131 39149 369099 944000) 0 nil])
+([nil nil ((#("n" 0 1 (part-side css)) . -7611) (undo-tree-id6 . -1) (undo-tree-id7 . -1) 7612) nil (26131 39149 369099 14000) 0 nil])
+([nil nil ((7611 . 7624)) nil (26131 39181 124992 26000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 8630 . 8631) (nil face (:background "#000000" :foreground "white") 8295 . 8300) (nil face (:background "#0e182d" :foreground "white") 7981 . 7988) (nil face (:background "#000000" :foreground "white") 7905 . 7910) (7624 . 8631)) ((#(".decode-text {
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+}
+.space {
+  display: inline-block;
+  width: 10px;
+}
+.text-animation {
+  display: inline-block;
+  position: relative;
+  color: transparent;
+  text-transform: uppercase;
+  &:before {
+    content: \"\";
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #0e182d;
+    width: 0;
+    height: 1.2em;
+    -webkit-transform: translate(-50%, -55%);
+    -ms-transform: translate(-50%, -55%);
+    transform: translate(-50%, -55%);
+  }
+
+  &.state-1 {
+    &:before {
+      width: 1px;
+    }
+  }
+  &.state-2 {
+    &:before {
+      width: 0.9em;
+    }
+  }
+  &.state-3 {
+    color: black;
+    &:before {
+      width: 0;
+    }
+  }
+}
+
+// demo styles
+#refresh {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+div {
+  font-family: \"Share Tech Mono\", monospace;
+}
+body {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+}
+" 0 12 (face web-mode-css-selector-class-face part-side css) 12 17 (part-side css) 17 23 (face web-mode-css-property-name-face part-side css) 23 32 (part-side css) 32 42 (face web-mode-css-property-name-face part-side css) 42 51 (part-side css) 51 62 (face web-mode-css-property-name-face part-side css) 62 73 (part-side css) 73 79 (face web-mode-css-selector-class-face part-side css) 79 84 (part-side css) 84 92 (face web-mode-css-property-name-face part-side css) 92 109 (part-side css) 109 115 (face web-mode-css-property-name-face part-side css) 115 124 (part-side css) 124 139 (face web-mode-css-selector-class-face part-side css) 139 144 (part-side css) 144 152 (face web-mode-css-property-name-face part-side css) 152 169 (part-side css) 169 178 (face web-mode-css-property-name-face part-side css) 178 191 (part-side css) 191 197 (face web-mode-css-property-name-face part-side css) 197 213 (part-side css) 213 228 (face web-mode-css-property-name-face part-side css) 228 240 (part-side css) 240 242 (part-side css) 242 243 (face web-mode-css-selector-tag-face part-side css) 243 251 (face web-mode-css-pseudo-class-face part-side css) 251 257 (part-side css) 257 265 (face web-mode-css-property-name-face part-side css) 265 266 (part-side css) 266 267 (font-lock-face web-mode-css-string-face syntax-table (15) part-token string part-side css) 267 268 (font-lock-face web-mode-css-string-face syntax-table (15) part-token string part-side css) 268 274 (part-side css) 274 280 (face web-mode-css-property-name-face part-side css) 280 281 (part-side css) 281 286 (face (:background "#000000" :foreground "white") part-side css) 286 292 (part-side css) 292 301 (face web-mode-css-property-name-face part-side css) 301 316 (part-side css) 316 320 (face web-mode-css-property-name-face part-side css) 320 330 (part-side css) 330 335 (face web-mode-css-property-name-face part-side css) 335 345 (part-side css) 345 356 (face web-mode-css-property-name-face part-side css) 356 357 (part-side css) 357 364 (face (:background "#0e182d" :foreground "white") part-side css) 364 370 (part-side css) 370 376 (face web-mode-css-property-name-face part-side css) 376 384 (part-side css) 384 391 (face web-mode-css-property-name-face part-side css) 391 403 (part-side css) 403 421 (face web-mode-css-property-name-face part-side css) 421 422 (part-side css) 422 431 (face web-mode-css-function-face part-side css) 431 449 (part-side css) 449 463 (face web-mode-css-property-name-face part-side css) 463 464 (part-side css) 464 473 (face web-mode-css-function-face part-side css) 473 491 (part-side css) 491 501 (face web-mode-css-property-name-face part-side css) 501 502 (part-side css) 502 511 (face web-mode-css-function-face part-side css) 511 528 (part-side css) 528 565 (part-side css) 565 571 (face web-mode-css-property-name-face part-side css) 571 622 (part-side css) 622 628 (face web-mode-css-property-name-face part-side css) 628 646 (part-side css) 646 649 (part-side css) 649 657 (face web-mode-css-selector-class-face part-side css) 657 664 (part-side css) 664 670 (face web-mode-css-property-name-face part-side css) 670 671 (part-side css) 671 676 (face (:background "#000000" :foreground "white") part-side css) 676 699 (part-side css) 699 705 (face web-mode-css-property-name-face part-side css) 705 718 (part-side css) 718 721 (part-side css) 721 722 (part-side css) 722 723 (font-lock-face web-mode-css-comment-face syntax-table (11) part-token comment part-side css) 723 736 (font-lock-face web-mode-css-comment-face part-token comment part-side css) 736 737 (face web-mode-css-selector-tag-face syntax-table (12) part-side css) 737 746 (face web-mode-css-selector-tag-face part-side css) 746 750 (part-side css) 750 759 (face web-mode-css-property-name-face part-side css) 759 772 (part-side css) 772 776 (face web-mode-css-property-name-face part-side css) 776 785 (part-side css) 785 790 (face web-mode-css-property-name-face part-side css) 790 799 (part-side css) 799 806 (face web-mode-css-property-name-face part-side css) 806 817 (part-side css) 817 818 (part-side css) 818 825 (face web-mode-css-at-rule-face part-side css) 825 843 (part-side css) 843 886 (face web-mode-css-selector-class-face part-side css) 886 888 (part-side css) 888 892 (face web-mode-css-selector-tag-face part-side css) 892 896 (part-side css) 896 908 (face web-mode-css-property-name-face part-side css) 908 909 (part-side css) 909 910 (font-lock-face web-mode-css-string-face syntax-table (15) part-token string part-side css) 910 925 (font-lock-face web-mode-css-string-face part-token string part-side css) 925 926 (font-lock-face web-mode-css-string-face syntax-table (15) part-token string part-side css) 926 940 (part-side css) 940 941 (part-side css) 941 946 (face web-mode-css-selector-tag-face part-side css) 946 950 (part-side css) 950 957 (face web-mode-css-property-name-face part-side css) 957 967 (part-side css) 967 979 (face web-mode-css-property-name-face part-side css) 979 990 (part-side css) 990 998 (face web-mode-css-property-name-face part-side css) 998 1006 (part-side css) 1006 1007 (part-side css rear-nonsticky nil)) . 7624) (undo-tree-id32 . -1007) (undo-tree-id33 . -1006) (undo-tree-id34 . -399) (undo-tree-id35 . -1007) (undo-tree-id36 . -1007) (undo-tree-id37 . -1007) (undo-tree-id38 . -1007) (undo-tree-id39 . -1007) (undo-tree-id40 . -1007) (undo-tree-id41 . -1007) (undo-tree-id42 . -1007) (undo-tree-id43 . -1007) (undo-tree-id44 . -1007) (undo-tree-id45 . -1007) (undo-tree-id46 . -1007) (undo-tree-id47 . -1007) (undo-tree-id48 . -1007) (undo-tree-id49 . -1007) (nil syntax-table (15) 7890 . 7891) (nil syntax-table (15) 7891 . 7892) (nil face (:background "#000000" :foreground "white") 7905 . 7910) (nil face (:background "#0e182d" :foreground "white") 7981 . 7988) (nil face (:background "#000000" :foreground "white") 8295 . 8300) (nil syntax-table (11) 8346 . 8347) (nil syntax-table (12) 8360 . 8361) (nil syntax-table (15) 8533 . 8534) (nil syntax-table (15) 8549 . 8550) (nil rear-nonsticky t 8630 . 8631) (t 26131 39163 81290 474000)) (26131 39182 8549 7000) 0 nil] [nil nil ((nil rear-nonsticky nil 7640 . 7641) (nil part-side css 7624 . 7641) (nil part-side css 7624 . 7641) (7624 . 7641) (t 26131 39149 374613 260000)) ((#("     App.test.js
+" 0 16 (part-side css) 16 17 (part-side css rear-nonsticky nil)) . 7624) (undo-tree-id24 . -17) (undo-tree-id25 . -17) (undo-tree-id26 . -17) (undo-tree-id27 . -17) (undo-tree-id28 . -17) (undo-tree-id29 . -17) (undo-tree-id30 . -17) (undo-tree-id31 . -17) (nil rear-nonsticky t 7640 . 7641) (t 26131 39158 311286 804000)) (26131 39158 306511 701000) 0 nil])
+([nil nil ((#("@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+div {
+  font-family: \"Share Tech Mono\", monospace;
+}
+body {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+}
+" 0 7 (face web-mode-css-at-rule-face part-side css) 7 25 (part-side css) 25 68 (face web-mode-css-selector-class-face part-side css) 68 70 (part-side css) 70 74 (face web-mode-css-selector-tag-face part-side css) 74 78 (part-side css) 78 90 (face web-mode-css-property-name-face part-side css) 90 91 (part-side css) 91 92 (font-lock-face web-mode-css-string-face syntax-table (15) part-token string part-side css) 92 107 (font-lock-face web-mode-css-string-face part-token string part-side css) 107 108 (font-lock-face web-mode-css-string-face syntax-table (15) part-token string part-side css) 108 122 (part-side css) 122 123 (part-side css) 123 128 (face web-mode-css-selector-tag-face part-side css) 128 132 (part-side css) 132 139 (face web-mode-css-property-name-face part-side css) 139 149 (part-side css) 149 161 (face web-mode-css-property-name-face part-side css) 161 172 (part-side css) 172 180 (face web-mode-css-property-name-face part-side css) 180 188 (part-side css) 188 189 (part-side css rear-nonsticky t)) . 8442) (undo-tree-id50 . -187) (undo-tree-id51 . -188) (undo-tree-id52 . -187) (undo-tree-id53 . -189) (undo-tree-id54 . -189) (undo-tree-id55 . -189) (undo-tree-id56 . -189) (undo-tree-id57 . -189) (undo-tree-id58 . -189) (undo-tree-id59 . -189) (undo-tree-id60 . -189) (undo-tree-id61 . -189) (undo-tree-id62 . -189) (undo-tree-id63 . -70) (undo-tree-id64 . -76) (undo-tree-id65 . -121) (undo-tree-id66 . -123) (undo-tree-id67 . -130) (undo-tree-id68 . -147) (undo-tree-id69 . -170) (undo-tree-id70 . -187) (undo-tree-id71 . -189) (undo-tree-id72 . -189) (undo-tree-id73 . -189) (undo-tree-id74 . -189) (undo-tree-id75 . -189) (undo-tree-id76 . -189) (undo-tree-id77 . -189) (undo-tree-id78 . -189) (undo-tree-id79 . -189) (undo-tree-id80 . -188) (undo-tree-id81 . -188) (undo-tree-id82 . -187) (undo-tree-id83 . -187) (undo-tree-id84 . -187) (undo-tree-id85 . -187) (undo-tree-id86 . -189) (t 26131 39163 81290 474000)) nil (26131 41916 476224 725000) 0 nil])
+nil
+([nil nil ((#("    font-family: monospace;
+" 0 4 (part-side css) 4 16 (face web-mode-css-property-name-face part-side css) 16 28 (part-side css)) . 7453) (undo-tree-id117 . -28) (undo-tree-id118 . -26) (undo-tree-id119 . -26) (undo-tree-id120 . -26)) ((7453 . 7481) (t 26131 41914 199307 95000)) (26131 41917 675159 760000) 0 nil])
+([nil nil ((#("    font-family: monospace;
+" 0 4 (part-side css) 4 16 (face web-mode-css-property-name-face part-side css) 16 28 (part-side css)) . 7239) (t 26131 41914 199307 95000)) ((7239 . 7267)) (26131 41917 995063 697000) 0 nil])
+([nil nil ((8239 . 8244) (#("black" 0 5 (face (:background "#000000" :foreground "white") part-side css)) . 8239)) ((8239 . 8244) (#("white" 0 5 (face (:background "#ffffff" :foreground "black") part-side css)) . 8239)) (26131 41918 494875 100000) 0 nil])
+([nil nil ((7849 . 7854) (#("black" 0 5 (face (:background "#000000" :foreground "white") part-side css)) . 7849)) ((7849 . 7854) (#("white" 0 5 (face (:background "#ffffff" :foreground "black") part-side css)) . 7849)) (26131 41919 51961 757000) 0 nil])
+([nil nil ((#("#" 0 1 (face (:background "#0e182d" :foreground "white") part-side css)) . 7925)) ((7925 . 7926)) (26131 41919 695297 258000) 0 nil])
+([nil nil ((7925 . 7927) (t 26131 41920 785982 296000)) ((#("wh" 0 1 (part-side css) 1 2 (part-side css)) . 7925) (undo-tree-id115 . -2)) (26131 41921 3415 761000) 0 nil])
+([nil nil ((#("wh" 0 1 (part-side css) 1 2 (part-side css)) . 7925)) ((7925 . 7927)) (26131 41921 691216 645000) 0 nil])
+([nil nil ((7925 . 7926) (#("0" 0 1 (part-side css)) . 7925) (undo-tree-id121 . -1)) nil (26131 41923 28239 817000) 0 nil] [nil nil ((#("d" 0 1 (part-side css)) . 7925) (#("2" 0 1 (part-side css)) . 7925) (#("8" 0 1 (part-side css)) . 7925) (#("1" 0 1 (part-side css)) . 7925) (#("e" 0 1 (part-side css)) . 7925) (#("0" 0 1 (part-side css)) . 7925)) ((7925 . 7926) (7925 . 7926) (7925 . 7926) (7925 . 7926) (7925 . 7926) (7925 . 7926)) (26131 41911 968509 780000) 0 nil])
+([nil nil ((#("e182d" 0 1 (part-side css) 1 2 (part-side css) 2 3 (part-side css) 3 4 (part-side css) 4 5 (part-side css) 5 6 (part-side css)) . 7925) (undo-tree-id122 . -5) (undo-tree-id123 . -5) (undo-tree-id124 . -5) (undo-tree-id125 . -5) (undo-tree-id126 . -5) (undo-tree-id127 . -6) (undo-tree-id128 . -6) 7930) nil (26131 41930 132071 748000) 0 nil])
+([nil nil ((7925 . 7930)) ((#("white" 0 5 (face (:background "#ffffff" :foreground "black") part-side css)) . 7925) (undo-tree-id114 . -4) (t 26131 41823 739189 881000)) (26131 41823 732000 576000) 0 nil])
+([nil nil ((7925 . 7930)) nil (26131 41949 47018 383000) 0 nil])
+nil
+([nil nil ((7710 . 7714) (7710 . 7711) 7724 (t 26131 41950 52686 885000)) nil (26131 41958 518711 653000) 0 nil] [nil nil ((7960 . 7961) (#("2" 0 1 (part-side css)) . 7960) (undo-tree-id129 . -1) (t 26131 41930 139327 749000)) ((7960 . 7961) (#("6" 0 1 (part-side css)) . 7960) (t 26131 41946 679349 180000)) (26131 41946 672807 422000) 0 nil])
+([nil nil ((7714 . 7719)) nil (26131 41958 518711 3000) 0 nil])
+nil
+([nil nil ((7719 . 7726)) nil (26131 41958 518708 153000) 0 nil])
+([nil nil ((7726 . 7731) (t 26131 41958 526031 198000)) nil (26131 41961 907659 496000) 0 nil])
+([nil nil ((#("o" 0 1 (part-side css)) . -7730) (undo-tree-id130 . -1) (undo-tree-id131 . -1) (undo-tree-id132 . -1) 7731) nil (26131 41961 907658 506000) 0 nil])
+([nil nil ((7730 . 7733)) nil (26131 41961 907648 666000) 0 nil])
+([nil nil ((7733 . 7738) (t 26131 41961 912702 253000)) nil (26131 41969 974606 343000) 0 nil])
+([nil nil ((7738 . 7743)) nil (26131 41969 974606 53000) 0 nil])
+([nil nil ((7743 . 7745)) nil (26131 41969 974605 823000) 0 nil])
+([nil nil ((#("i" 0 1 (part-side css)) . -7744) (undo-tree-id140 . -1) (undo-tree-id141 . -1) (undo-tree-id142 . -1) 7745) nil (26131 41969 974605 403000) 0 nil])
+([nil nil ((7744 . 7752)) nil (26131 41969 974604 83000) 0 nil])
+([nil nil ((#("2" 0 1 (part-side css)) . -7750) (undo-tree-id133 . -1) (undo-tree-id134 . -1) (undo-tree-id135 . -1) (undo-tree-id136 . -1) (#("0" 0 1 (part-side css)) . -7751) (undo-tree-id137 . -1) (undo-tree-id138 . -1) (undo-tree-id139 . -1) 7752) nil (26131 41969 974603 223000) 0 nil])
+([nil nil ((7750 . 7754)) nil (26131 41969 974591 713000) 0 nil])
+([nil nil ((7754 . 7759) (t 26131 41969 982712 709000) 7753) nil (26131 41977 330834 249000) 0 nil])
+([nil nil ((7759 . 7769)) nil (26131 41977 330830 459000) 0 nil])
+([nil nil ((7769 . 7774) (t 26131 41977 336055 571000)) nil (26131 41979 532804 315000) 0 nil])
+([nil nil ((7769 . 7770) (#("2" 0 1 (part-side css)) . 7769) (undo-tree-id143 . -1) (t 26131 41979 539391 760000)) nil (26131 41983 11606 366000) 0 nil])
+([nil nil ((7769 . 7770) (#("4" 0 1 (part-side css)) . 7769) (undo-tree-id144 . -1) (t 26131 41983 19396 268000)) nil (26131 42004 86075 467000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 8530 . 8531) (nil part-side css 8523 . 8531) (nil part-side css 8502 . 8523) (nil face web-mode-css-property-name-face 8502 . 8523) (nil part-side css 8498 . 8502) (nil part-side css 8497 . 8498) (nil part-token string 8497 . 8498) (nil syntax-table (15) 8497 . 8498) (nil font-lock-face web-mode-css-string-face 8497 . 8498) (nil part-side css 8496 . 8497) (nil part-token string 8496 . 8497) (nil font-lock-face web-mode-css-string-face 8496 . 8497) (nil part-side css 8495 . 8496) (nil part-token string 8495 . 8496) (nil syntax-table (15) 8495 . 8496) (nil font-lock-face web-mode-css-string-face 8495 . 8496) (nil part-side css 8494 . 8495) (nil part-side css 8478 . 8494) (nil face web-mode-css-property-name-face 8478 . 8494) (nil part-side css 8464 . 8478) (nil part-side css 8456 . 8464) (nil face web-mode-css-property-name-face 8456 . 8464) (nil part-side css 8452 . 8456) (nil part-side css 8449 . 8452) (nil face web-mode-css-selector-tag-face 8449 . 8452) (8449 . 8531) (t 26131 42004 92756 908000)) nil (26131 42517 186926 176000) 0 nil])
+([nil nil ((8448 . 8449) (t 26131 42517 193421 757000) 8447) nil (26131 42522 332575 972000) 0 nil])
+([nil nil ((#("// demo styles
+#refresh {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+" 0 1 (font-lock-face web-mode-css-comment-face syntax-table (11) part-token comment part-side css) 1 14 (font-lock-face web-mode-css-comment-face part-token comment part-side css) 14 15 (face web-mode-css-selector-tag-face syntax-table (12) part-side css) 15 24 (face web-mode-css-selector-tag-face part-side css) 24 28 (part-side css) 28 37 (face web-mode-css-property-name-face part-side css) 37 50 (part-side css) 50 54 (face web-mode-css-property-name-face part-side css) 54 63 (part-side css) 63 68 (face web-mode-css-property-name-face part-side css) 68 77 (part-side css) 77 84 (face web-mode-css-property-name-face part-side css) 84 95 (part-side css) 95 96 (part-side css)) . 8353) (undo-tree-id145 . -94) (undo-tree-id146 . -95) (undo-tree-id147 . -94) (undo-tree-id148 . -94) (undo-tree-id149 . -94) (undo-tree-id150 . -96) (undo-tree-id151 . -96) (undo-tree-id152 . -96) (undo-tree-id153 . -96) (undo-tree-id154 . -96) (undo-tree-id155 . -96) (undo-tree-id156 . -94) (undo-tree-id157 . -94) (undo-tree-id158 . -96)) nil (26131 42522 332574 532000) 0 nil])
+([nil nil ((8353 . 8355)) nil (26131 42522 332560 992000) 0 nil])
+([nil nil ((8373 . 8374) (8370 . 8373) (#("e" 0 1 (font-lock-face web-mode-css-comment-face part-token comment part-side css)) . -8370) (undo-tree-id159 . -1) (undo-tree-id160 . -1) (undo-tree-id161 . -1) (undo-tree-id162 . -1) (undo-tree-id163 . -1) 8371 (8355 . 8371) (#("l" 0 1 (font-lock-face web-mode-css-comment-face part-token comment part-side css)) . -8355) (undo-tree-id164 . -1) (undo-tree-id165 . -1) (undo-tree-id166 . -1) (undo-tree-id167 . -1) (undo-tree-id168 . -1) (undo-tree-id169 . -1) (undo-tree-id170 . -1) (undo-tree-id171 . -1) (undo-tree-id172 . -1) (undo-tree-id173 . -1) (undo-tree-id174 . -1) (#("i" 0 1 (font-lock-face web-mode-css-comment-face part-token comment part-side css)) . -8356) (undo-tree-id175 . -1) (undo-tree-id176 . -1) (undo-tree-id177 . -1) (undo-tree-id178 . -1) (undo-tree-id179 . -1) (undo-tree-id180 . -1) (undo-tree-id181 . -1) (undo-tree-id182 . -1) (undo-tree-id183 . -1) (undo-tree-id184 . -1) (#("s" 0 1 (font-lock-face web-mode-css-comment-face part-token comment part-side css)) . -8357) (undo-tree-id185 . -1) (undo-tree-id186 . -1) (undo-tree-id187 . -1) (undo-tree-id188 . -1) (undo-tree-id189 . -1) 8358 (8355 . 8358) (t 26131 42522 340095 93000)) nil (26131 42529 339832 423000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 8570 . 8571) (nil part-side css 8563 . 8571) (nil part-side css 8542 . 8563) (nil face web-mode-css-property-name-face 8542 . 8563) (nil part-side css 8538 . 8542) (nil part-side css 8537 . 8538) (nil part-token string 8537 . 8538) (nil syntax-table (15) 8537 . 8538) (nil font-lock-face web-mode-css-string-face 8537 . 8538) (nil part-side css 8536 . 8537) (nil part-token string 8536 . 8537) (nil font-lock-face web-mode-css-string-face 8536 . 8537) (nil part-side css 8535 . 8536) (nil part-token string 8535 . 8536) (nil syntax-table (15) 8535 . 8536) (nil font-lock-face web-mode-css-string-face 8535 . 8536) (nil part-side css 8534 . 8535) (nil part-side css 8518 . 8534) (nil face web-mode-css-property-name-face 8518 . 8534) (nil part-side css 8516 . 8518) (nil part-side css 8515 . 8516) (nil syntax-table (12) 8515 . 8516) (nil part-side css 8508 . 8515) (nil part-token comment 8508 . 8515) (nil font-lock-face web-mode-css-comment-face 8508 . 8515) (nil part-side css 8507 . 8508) (nil part-token comment 8507 . 8508) (nil syntax-table (11) 8507 . 8508) (nil font-lock-face web-mode-css-comment-face 8507 . 8508) (nil part-side css 8485 . 8507) (nil part-side css 8482 . 8485) (nil face web-mode-css-function-face 8482 . 8485) (nil part-side css 8481 . 8482) (nil part-side css 8464 . 8481) (nil face web-mode-css-property-name-face 8464 . 8481) (nil part-side css 8460 . 8464) (nil part-side css 8457 . 8460) (nil face web-mode-css-selector-tag-face 8457 . 8460) (8457 . 8571) (t 26131 42529 350104 176000)) nil (26131 42559 375184 915000) 0 nil])
+([nil nil ((#("dd {
+  display: list-item;
+  list-style-type: \"🤯\";
+  padding-inline-start: 1ch;
+}
+" 0 3 (face web-mode-css-selector-tag-face part-side css) 3 7 (part-side css) 7 15 (face web-mode-css-property-name-face part-side css) 15 29 (part-side css) 29 45 (face web-mode-css-property-name-face part-side css) 45 46 (part-side css) 46 47 (font-lock-face web-mode-css-string-face syntax-table (15) part-token string part-side css) 47 48 (font-lock-face web-mode-css-string-face part-token string part-side css) 48 49 (font-lock-face web-mode-css-string-face syntax-table (15) part-token string part-side css) 49 53 (part-side css) 53 74 (face web-mode-css-property-name-face part-side css) 74 81 (part-side css) 81 82 (part-side css rear-nonsticky t)) . 8375) (undo-tree-id190 . -80) (undo-tree-id191 . -81) (undo-tree-id192 . -80) (undo-tree-id193 . -82) (undo-tree-id194 . -82) (undo-tree-id195 . -82) (undo-tree-id196 . -82) (undo-tree-id197 . -82) (undo-tree-id198 . -82) (undo-tree-id199 . -82) (undo-tree-id200 . -82) (undo-tree-id201 . -82) (undo-tree-id202 . -82) (undo-tree-id203 . -82) (undo-tree-id204 . -82) (undo-tree-id205 . -82) (undo-tree-id206 . -82) (undo-tree-id207 . -82) (undo-tree-id208 . -82) (undo-tree-id209 . -82) (undo-tree-id210 . -82) (undo-tree-id211 . -56) (undo-tree-id212 . -56) (undo-tree-id213 . -56) (undo-tree-id214 . -56) (undo-tree-id215 . -81) (undo-tree-id216 . -81) (undo-tree-id217 . -80) (undo-tree-id218 . -80) (undo-tree-id219 . -80) (undo-tree-id220 . -80) (undo-tree-id221 . -82)) nil (26131 42559 375180 915000) 0 nil])
+([nil nil ((#("  list-style-image: url(/right-arrow.svg);
+  /* OR */
+" 0 2 (part-side css) 2 19 (face web-mode-css-property-name-face part-side css) 19 20 (part-side css) 20 23 (face web-mode-css-function-face part-side css) 23 45 (part-side css) 45 46 (font-lock-face web-mode-css-comment-face syntax-table (11) part-token comment part-side css) 46 53 (font-lock-face web-mode-css-comment-face part-token comment part-side css) 53 54 (syntax-table (12) part-side css)) . 8380) (undo-tree-id222 . -53) (undo-tree-id223 . -53) (undo-tree-id224 . -29) (undo-tree-id225 . -53) (undo-tree-id226 . -29) (undo-tree-id227 . -29) (undo-tree-id228 . -29) (undo-tree-id229 . -53) (undo-tree-id230 . -29) (undo-tree-id231 . -53) (undo-tree-id232 . -54) 8433 (t 26131 42559 383476 425000)) nil (26131 42581 492545 764000) 0 nil])
+([nil nil ((8428 . 8429) (#("1" 0 1 (part-side css)) . 8428) (undo-tree-id233 . -1) (t 26131 42581 500171 749000)) nil (26131 42587 214677 969000) 0 nil])
+([nil nil ((8428 . 8429) (#("3" 0 1 (part-side css)) . 8428) (undo-tree-id234 . -1) (t 26131 42587 223512 498000)) nil (26131 42589 586741 516000) 0 nil])
+([nil nil ((nil part-side css 8400 . 8401) (nil part-token string 8400 . 8401) (nil font-lock-face web-mode-css-string-face 8400 . 8401) (8400 . 8401) (#("👉" 0 1 (font-lock-face web-mode-css-string-face part-token string part-side css)) . 8400) (undo-tree-id235 . -1) (t 26131 42589 593515 569000)) nil (26131 42599 804839 197000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 8465 . 8466) (nil part-side css 8462 . 8466) (nil part-side css 8461 . 8462) (nil part-token string 8461 . 8462) (nil syntax-table (15) 8461 . 8462) (nil font-lock-face web-mode-css-string-face 8461 . 8462) (nil part-side css 8460 . 8461) (nil part-token string 8460 . 8461) (nil font-lock-face web-mode-css-string-face 8460 . 8461) (nil part-side css 8459 . 8460) (nil part-token string 8459 . 8460) (nil syntax-table (15) 8459 . 8460) (nil font-lock-face web-mode-css-string-face 8459 . 8460) (nil part-side css 8458 . 8459) (nil part-side css 8450 . 8458) (nil face web-mode-css-property-name-face 8450 . 8458) (nil part-side css 8446 . 8450) (nil part-side css 8438 . 8446) (nil face web-mode-css-pseudo-class-face 8438 . 8446) (nil part-side css 8435 . 8438) (nil face web-mode-css-selector-tag-face 8435 . 8438) (8435 . 8466) (t 26131 42599 813528 813000)) nil (26131 42687 864299 969000) 0 nil])
+([nil nil ((#("  list-style-type: 'x';
+  padding-inline-start: 5ch;
+" 0 2 (part-side css) 2 18 (face web-mode-css-property-name-face part-side css) 18 19 (part-side css) 19 20 (font-lock-face web-mode-css-string-face syntax-table (15) part-token string part-side css) 20 21 (font-lock-face web-mode-css-string-face part-token string part-side css) 21 22 (font-lock-face web-mode-css-string-face syntax-table (15) part-token string part-side css) 22 26 (part-side css) 26 47 (face web-mode-css-property-name-face part-side css) 47 48 (part-side css) 48 49 (part-side css) 49 53 (part-side css)) . 8380) (undo-tree-id246 . -24) (undo-tree-id247 . -52) (undo-tree-id248 . -24) (undo-tree-id249 . -24) (undo-tree-id250 . -24) (undo-tree-id251 . -53) 8404 (t 26131 42688 876977 549000)) nil (26131 42697 775222 699000) 0 nil] [nil nil ((#("li {
+  list-style-type: 'x';
+  padding-inline-start: 5ch;
+}
+" 0 3 (face web-mode-css-selector-tag-face part-side css) 3 5 (part-side css) 5 7 (part-side css) 7 23 (face web-mode-css-property-name-face part-side css) 23 24 (part-side css) 24 25 (font-lock-face web-mode-css-string-face syntax-table (15) part-token string part-side css) 25 26 (font-lock-face web-mode-css-string-face part-token string part-side css) 26 27 (font-lock-face web-mode-css-string-face syntax-table (15) part-token string part-side css) 27 31 (part-side css) 31 52 (face web-mode-css-property-name-face part-side css) 52 53 (part-side css) 53 54 (part-side css) 54 59 (part-side css) 59 60 (part-side css rear-nonsticky t)) . 8375) (undo-tree-id236 . -59) (undo-tree-id237 . -59) (undo-tree-id238 . -59) (undo-tree-id239 . -60) (undo-tree-id240 . -60) (undo-tree-id242 . -59) (undo-tree-id244 . -59) (t 26131 42639 586913 682000)) ((8375 . 8435) (t 26131 42681 343634 455000)) (26131 42680 332155 993000) 0 nil])
+([nil nil ((#("l" 0 1 (face web-mode-css-selector-tag-face part-side css)) . 8382) (t 26131 42698 783670 367000)) nil (26131 42725 265402 261000) 0 nil] [nil nil ((#("li {
+}
+" 0 3 (face web-mode-css-selector-tag-face part-side css) 3 5 (part-side css) 5 6 (part-side css) 6 7 (part-side css rear-nonsticky t)) . 8375) (undo-tree-id252 . -5) (undo-tree-id253 . -6) (undo-tree-id254 . -5) (undo-tree-id255 . -7) (undo-tree-id256 . -7) (undo-tree-id257 . -5) (undo-tree-id258 . -5) (undo-tree-id259 . -5) (undo-tree-id260 . -5) (undo-tree-id261 . -7) (t 26131 42693 256989 94000)) ((8375 . 8382) (t 26131 42696 603664 607000)) (26131 42696 599743 910000) 0 nil])
+([nil nil ((8377 . 8382) (t 26131 42643 760252 423000)) ((#(".done" 0 5 (face web-mode-css-selector-class-face part-side css)) . 8377) (t 26131 42650 533594 533000)) (26131 42650 525638 279000) 0 nil])
+([nil nil ((#("i" 0 1 (face web-mode-css-selector-tag-face part-side css)) . 8382) (undo-tree-id262 . 1)) nil (26131 42725 265401 281000) 0 nil])
+nil
+nil
+([nil nil ((8382 . 8386)) nil (26131 42725 265392 681000) 0 nil])
+([nil nil ((8382 . 8383) (t 26131 42725 270407 14000)) nil (26131 42772 399401 541000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 8415 . 8416) (#("
+" 0 1 (part-side css)) . -8449) (8415 . 8450) 8414 (t 26131 42774 160536 194000)) nil (26131 42782 841419 59000) 0 nil] [nil nil ((#("li {
+}
+" 0 3 (face web-mode-css-selector-tag-face part-side css) 3 5 (part-side css) 5 6 (part-side css) 6 7 (part-side css rear-nonsticky t)) . 8375) (undo-tree-id263 . -5) (undo-tree-id264 . -6) (undo-tree-id265 . -5) (undo-tree-id266 . -7) (undo-tree-id267 . -7) (undo-tree-id268 . -7) (undo-tree-id269 . -7) (undo-tree-id270 . -7) (undo-tree-id271 . -7) (undo-tree-id272 . -5) (undo-tree-id273 . -5) (undo-tree-id274 . -7) (t 26131 42765 633846 997000)) ((8375 . 8382) (t 26131 42771 493862 483000)) (26131 42771 493326 238000) 0 nil])
+([nil nil ((8418 . 8419) (#("n" 0 1 (face web-mode-css-selector-class-face part-side css)) . -8418) (undo-tree-id275 . -1) (undo-tree-id276 . -1) (#("=" 0 1 (face web-mode-css-selector-class-face part-side css)) . -8419) (undo-tree-id277 . -1) (undo-tree-id278 . -1) 8420 (8417 . 8420) (#("done" 0 4 (face web-mode-css-selector-class-face part-side css)) . 8417) (undo-tree-id279 . -3) (undo-tree-id280 . -4) (undo-tree-id281 . -4)) nil (26131 42782 841416 339000) 0 nil])
+nil
+([nil nil ((nil rear-nonsticky nil 8445 . 8446) (nil part-side css 8442 . 8446) (nil part-token string 8442 . 8446) (nil font-lock-face web-mode-css-string-face 8442 . 8446) (8442 . 8446) 8441 (t 26131 42782 847225 811000)) nil (26131 42788 932790 854000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 8446 . 8447) (nil part-side css 8446 . 8447) (nil part-token string 8446 . 8447) (nil font-lock-face web-mode-css-string-face 8446 . 8447) (8446 . 8447) 8445 (t 26131 42788 933908 562000)) nil (26131 42799 206816 599000) 0 nil])
+([nil nil ((#("😍" 0 1 (font-lock-face web-mode-css-string-face part-token string part-side css)) . 8447) (undo-tree-id323 . 1) (undo-tree-id324 . -1) (undo-tree-id325 . -1)) nil (26131 42799 206815 739000) 0 nil])
+([nil nil ((#("o" 0 1 (font-lock-face web-mode-css-string-face part-token string part-side css)) . 8443) (undo-tree-id321 . -1) (undo-tree-id322 . -1)) nil (26131 42799 206814 569000) 0 nil])
+([nil nil ((#("n" 0 1 (font-lock-face web-mode-css-string-face part-token string part-side css)) . 8443) (undo-tree-id305 . -1) (undo-tree-id306 . -1) (undo-tree-id307 . -1) (undo-tree-id308 . -1) (undo-tree-id309 . -1) (undo-tree-id310 . -1) (undo-tree-id311 . -1) (undo-tree-id312 . -1) (undo-tree-id313 . -1) (undo-tree-id314 . -1) (undo-tree-id315 . -1) (undo-tree-id316 . -1) (undo-tree-id317 . -1) (undo-tree-id318 . -1) (undo-tree-id319 . -1) (undo-tree-id320 . -1)) nil (26131 42799 206812 889000) 0 nil])
+([nil nil ((#("d" 0 1 (font-lock-face web-mode-css-string-face part-token string part-side css)) . 8442) (undo-tree-id287 . -1) (undo-tree-id288 . -1) (undo-tree-id289 . -1) (undo-tree-id290 . -1) (undo-tree-id291 . -1) (undo-tree-id292 . -1) (undo-tree-id293 . -1) (undo-tree-id294 . -1) (undo-tree-id295 . -1) (undo-tree-id296 . -1) (undo-tree-id297 . -1) (undo-tree-id298 . -1) (undo-tree-id299 . -1) (undo-tree-id300 . -1) (undo-tree-id301 . -1) (undo-tree-id302 . -1) (undo-tree-id303 . -1) (undo-tree-id304 . -1)) nil (26131 42799 206807 689000) 0 nil])
+([nil nil ((#("e" 0 1 (font-lock-face web-mode-css-string-face part-token string part-side css rear-nonsticky t)) . 8442) (undo-tree-id282 . -1) (undo-tree-id283 . -1) (undo-tree-id284 . -1) (undo-tree-id285 . -1) (undo-tree-id286 . -1)) nil (26131 42799 206619 169000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 8442 . 8443) (nil part-side css 8442 . 8443) (nil part-token string 8442 . 8443) (nil font-lock-face web-mode-css-string-face 8442 . 8443) (nil part-side css 8442 . 8443) (nil part-token string 8442 . 8443) (nil font-lock-face web-mode-css-string-face 8442 . 8443) (8442 . 8443) 8441 (t 26131 42799 210602 381000)) nil (26131 42813 451769 931000) 0 nil])
+([nil nil ((#("❌" 0 1 (font-lock-face web-mode-css-string-face part-token string part-side css rear-nonsticky t)) . 8443) (undo-tree-id328 . -1) (undo-tree-id329 . -1)) nil (26131 42813 451769 111000) 0 nil])
+([nil nil ((#("😍" 0 1 (font-lock-face web-mode-css-string-face part-token string part-side css)) . 8410) (undo-tree-id326 . -1) (undo-tree-id327 . -1)) nil (26131 42813 451765 401000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 8410 . 8411) (nil part-side css 8410 . 8411) (nil part-token string 8410 . 8411) (nil font-lock-face web-mode-css-string-face 8410 . 8411) (nil part-side css 8410 . 8411) (nil part-token string 8410 . 8411) (nil font-lock-face web-mode-css-string-face 8410 . 8411) (8410 . 8411) 8409 (t 26131 42813 467306 715000)) nil (26131 42867 698934 311000) 0 nil])
+([nil nil ((8413 . 8418) (t 26131 42867 704116 686000) 8410) nil (26131 42875 532050 739000) 0 nil])
+([nil nil ((#(" " 0 1 (part-side css)) . -8416) (undo-tree-id371 . -1) (undo-tree-id372 . -1) (undo-tree-id373 . -1) (undo-tree-id374 . -1) (undo-tree-id375 . -1) (#(" " 0 1 (part-side css)) . -8417) (undo-tree-id376 . -1) (undo-tree-id377 . -1) (undo-tree-id378 . -1) (undo-tree-id379 . -1) 8418 (t 26131 42875 537470 716000)) nil (26131 42882 95361 956000) 0 nil])
+([nil nil ((8416 . 8417)) nil (26131 42882 95359 196000) 0 nil])
+([nil nil ((8417 . 8420)) nil (26131 42882 95358 916000) 0 nil])
+([nil nil ((#("p" 0 1 (part-side css)) . -8416) (undo-tree-id330 . -1) (undo-tree-id331 . -1) (undo-tree-id332 . -1) (undo-tree-id333 . -1) (undo-tree-id334 . -1) (undo-tree-id335 . -1) (undo-tree-id336 . -1) (undo-tree-id337 . -1) (undo-tree-id338 . -1) (undo-tree-id339 . -1) (undo-tree-id340 . -1) (undo-tree-id341 . -1) (undo-tree-id342 . -1) (#("a" 0 1 (part-side css)) . -8417) (undo-tree-id343 . -1) (undo-tree-id344 . -1) (undo-tree-id345 . -1) (undo-tree-id346 . -1) (undo-tree-id347 . -1) (undo-tree-id348 . -1) (undo-tree-id349 . -1) (undo-tree-id350 . -1) (undo-tree-id351 . -1) (undo-tree-id352 . -1) (undo-tree-id353 . -1) (undo-tree-id354 . -1) (undo-tree-id355 . -1) (#("d" 0 1 (part-side css)) . -8418) (undo-tree-id356 . -1) (undo-tree-id357 . -1) (undo-tree-id358 . -1) (undo-tree-id359 . -1) (undo-tree-id360 . -1) (undo-tree-id361 . -1) (undo-tree-id362 . -1) (undo-tree-id363 . -1) (undo-tree-id364 . -1) (undo-tree-id365 . -1) (#("d" 0 1 (part-side css)) . -8419) (undo-tree-id366 . -1) (undo-tree-id367 . -1) (undo-tree-id368 . -1) (undo-tree-id369 . -1) (undo-tree-id370 . -1) 8420) nil (26131 42882 95357 606000) 0 nil])
+([nil nil ((8416 . 8432)) nil (26131 42882 95242 276000) 0 nil])
+([nil nil ((8429 . 8430) (t 26131 42882 100821 391000)) nil (26131 42886 10628 538000) 0 nil])
+([nil nil ((#("  margin-left:20px;
+" 0 2 (part-side css) 2 14 (face web-mode-css-property-name-face part-side css) 14 19 (part-side css) 19 20 (part-side css)) . 8414) (undo-tree-id380 . 4) (undo-tree-id381 . -19) (undo-tree-id382 . -16) (undo-tree-id383 . -16) (undo-tree-id384 . -15) (undo-tree-id385 . -15) (undo-tree-id386 . -15) (undo-tree-id387 . -15) (undo-tree-id388 . -15) (undo-tree-id389 . -15) (undo-tree-id390 . -15) (undo-tree-id391 . -15) (undo-tree-id392 . -20) 8429 (t 26131 42886 17498 405000)) nil (26131 42889 240266 496000) 0 nil])
+([nil nil ((8380 . 8384) (8380 . 8381) (t 26131 42889 244173 598000)) nil (26131 42906 2874 835000) 0 nil])
+([nil nil ((8384 . 8400)) nil (26131 42906 2871 595000) 0 nil])
+([nil nil ((#("    margin-left:3em;
+" 0 4 (part-side css) 4 16 (face web-mode-css-property-name-face part-side css) 16 20 (part-side css) 20 21 (part-side css)) . 8380) (undo-tree-id393 . 1) (undo-tree-id394 . -20) (undo-tree-id395 . -20) (undo-tree-id396 . -20) (undo-tree-id397 . -19) (undo-tree-id398 . -19) (undo-tree-id399 . -19) (undo-tree-id400 . -19) (undo-tree-id401 . -19) (undo-tree-id402 . -19) (undo-tree-id403 . -19) (undo-tree-id404 . -19) (undo-tree-id405 . -19) (undo-tree-id406 . -19) (undo-tree-id407 . -21) 8399 (t 26131 42906 7551 222000)) nil (26131 42911 540827 763000) 0 nil])
+([nil nil ((8380 . 8384) (8380 . 8381) (t 26131 42911 547565 860000)) nil (26131 42953 757821 192000) 0 nil])
+([nil nil ((8384 . 8392)) nil (26131 42953 757820 922000) 0 nil])
+([nil nil ((#("(" 0 1 (part-side css)) . -8391) (undo-tree-id413 . -1) (undo-tree-id414 . -1) (undo-tree-id415 . -1) 8392) nil (26131 42953 757820 622000) 0 nil])
+([nil nil ((8391 . 8393)) nil (26131 42953 757819 292000) 0 nil])
+([nil nil ((#("e" 0 1 (part-side css)) . -8392) (undo-tree-id408 . -1) (undo-tree-id409 . -1) (undo-tree-id410 . -1) (undo-tree-id411 . -1) (undo-tree-id412 . -1) 8393) nil (26131 42953 757818 222000) 0 nil])
+([nil nil ((8392 . 8401)) nil (26131 42953 757807 992000) 0 nil])
+([nil nil ((#("    padding-left:2em;
+" 0 4 (part-side css) 4 17 (face web-mode-css-property-name-face part-side css) 17 21 (part-side css) 21 22 (part-side css)) . 8380) (undo-tree-id416 . 1) (undo-tree-id417 . -21) (undo-tree-id418 . -11) (undo-tree-id419 . -12) (undo-tree-id420 . -12) (undo-tree-id421 . -12) (undo-tree-id422 . -21) (undo-tree-id423 . -21) (undo-tree-id424 . -20) (undo-tree-id425 . -20) (undo-tree-id426 . -20) (undo-tree-id427 . -20) (undo-tree-id428 . -20) (undo-tree-id429 . -20) (undo-tree-id430 . -20) (undo-tree-id431 . -20) (undo-tree-id432 . -22) 8400 (t 26131 42953 764344 73000)) nil (26131 42966 870604 325000) 0 nil])
+([nil nil ((8447 . 8448) (t 26131 42966 874378 712000) 8446) nil (26131 43427 178793 955000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 8448 . 8449) (nil part-side css 8448 . 8449) (8448 . 8449)) nil (26131 43427 178793 635000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 8447 . 8448) (#("
+" 0 1 (part-side css)) . -8479) (8447 . 8480) 8446) nil (26131 43427 178793 55000) 0 nil])
+([nil nil ((#("ip" 0 2 (face web-mode-css-selector-class-face part-side css)) . 8449) (undo-tree-id433 . -1) (undo-tree-id434 . -2) (undo-tree-id435 . -2)) nil (26131 43427 178790 855000) 0 nil])
+([nil nil ((8449 . 8456) (t 26131 43427 185594 928000)) nil (26131 43436 109462 898000) 0 nil])
+([nil nil ((#("👾" 0 1 (part-side css rear-nonsticky t)) . 8485) (undo-tree-id438 . 1) (undo-tree-id439 . -1) (undo-tree-id440 . -1)) nil (26131 43436 109461 828000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 8479 . 8480) (nil part-side css 8479 . 8480) (nil part-token string 8479 . 8480) (nil font-lock-face web-mode-css-string-face 8479 . 8480) (8479 . 8480) 8478) nil (26131 43436 109459 448000) 0 nil])
+([nil nil ((#("⏳" 0 1 (font-lock-face web-mode-css-string-face part-token string part-side css)) . 8480) (undo-tree-id436 . -1) (undo-tree-id437 . -1)) nil (26131 43436 109456 858000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 8420 . 8421) (nil part-side css 8416 . 8421) (nil part-side css 8409 . 8416) (nil face web-mode-css-property-name-face 8409 . 8416) (nil part-side css 8405 . 8409) (nil part-side css 8397 . 8405) (nil face web-mode-css-property-name-face 8397 . 8405) (nil part-side css 8390 . 8397) (nil part-side css 8379 . 8390) (nil face web-mode-css-property-name-face 8379 . 8390) (nil part-side css 8377 . 8379) (nil part-side css 8374 . 8377) (nil face web-mode-css-selector-tag-face 8374 . 8377) (8374 . 8421) (t 26131 43436 115618 525000)) nil (26131 44708 683095 853000) 0 nil])
+([nil nil ((8421 . 8422) (t 26131 44711 572177 217000) 8420) nil (26131 44731 850237 577000) 0 nil] [nil nil ((#("ul
+{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+" 0 3 (face web-mode-css-selector-tag-face part-side css) 3 5 (part-side css) 5 16 (face web-mode-css-property-name-face part-side css) 16 23 (part-side css) 23 31 (face web-mode-css-property-name-face part-side css) 31 35 (part-side css) 35 42 (face web-mode-css-property-name-face part-side css) 42 46 (part-side css) 46 47 (part-side css rear-nonsticky t) 47 48 (part-side css)) . 8374) (undo-tree-id441 . -46) (undo-tree-id442 . 1) (undo-tree-id443 . -47) (undo-tree-id444 . -46) (undo-tree-id445 . -48) (undo-tree-id446 . -48) (undo-tree-id447 . -47) (undo-tree-id448 . -47) (undo-tree-id449 . -47) (undo-tree-id450 . -46) (undo-tree-id451 . -46) (undo-tree-id452 . -46) (undo-tree-id453 . -46) (undo-tree-id454 . -46) (undo-tree-id455 . -46) (undo-tree-id456 . -48) (t 26131 44701 795486 148000)) ((8374 . 8422) (t 26131 44706 965499 52000)) (26131 44706 958832 64000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 8532 . 8533) (nil part-side css 8528 . 8533) (nil part-side css 8512 . 8528) (nil face web-mode-css-property-name-face 8512 . 8528) (nil part-side css 8505 . 8512) (nil part-side css 8493 . 8505) (nil face web-mode-css-property-name-face 8493 . 8505) (nil part-side css 8486 . 8493) (nil part-side css 8478 . 8486) (nil face web-mode-css-property-name-face 8478 . 8486) (nil part-side css 8472 . 8478) (nil part-side css 8465 . 8472) (nil face web-mode-css-property-name-face 8465 . 8472) (nil part-side css 8453 . 8465) (nil part-side css 8447 . 8453) (nil face web-mode-css-selector-class-face 8447 . 8453) (nil part-side css 8440 . 8447) (nil part-side css 8434 . 8440) (nil face web-mode-css-selector-class-face 8434 . 8440) (nil part-side css 8430 . 8434) (nil part-side css 8424 . 8430) (nil face web-mode-css-selector-class-face 8424 . 8430) (nil part-side css 8422 . 8424) (8422 . 8533)) nil (26131 44731 850236 887000) 0 nil])
+nil
+([nil current ((#("ul
+{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+" 0 3 (face web-mode-css-selector-tag-face part-side css) 3 5 (part-side css) 5 16 (face web-mode-css-property-name-face part-side css) 16 23 (part-side css) 23 31 (face web-mode-css-property-name-face part-side css) 31 35 (part-side css) 35 42 (face web-mode-css-property-name-face part-side css) 42 46 (part-side css) 46 47 (part-side css rear-nonsticky t) 47 48 (part-side css)) . 8374) (undo-tree-id457 . -46) (undo-tree-id458 . -47) (undo-tree-id459 . -46) (undo-tree-id460 . -47) (undo-tree-id461 . -47) (undo-tree-id462 . -47) (undo-tree-id463 . -46) (undo-tree-id464 . -46) (undo-tree-id465 . -46) (undo-tree-id466 . -46) (undo-tree-id467 . -46) (undo-tree-id468 . -46) (undo-tree-id469 . -46) (undo-tree-id470 . -46) (undo-tree-id471 . -46) (undo-tree-id472 . -46) (undo-tree-id473 . -47) (undo-tree-id474 . -47) (undo-tree-id475 . -47) (undo-tree-id476 . -47) (undo-tree-id477 . -46) (undo-tree-id478 . -46) (undo-tree-id479 . -48) (undo-tree-id480 . -48) (undo-tree-id481 . -48) (undo-tree-id482 . -48) (undo-tree-id483 . -48) (undo-tree-id484 . -48) (undo-tree-id485 . -47) (undo-tree-id486 . -48) (undo-tree-id487 . -46) (undo-tree-id488 . -46) (undo-tree-id489 . -48)) nil (26131 44731 850233 87000) 0 nil])
 nil

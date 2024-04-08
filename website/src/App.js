@@ -3,7 +3,7 @@ import Layout from "./components/Layouts";
 import Header from "./panels/Header";
 import Main from "./panels/Main";
 import Tokenomics from "./panels/Tokenomics";
-import Leet from "./panels/Leet";
+import Roadmap from "./panels/Roadmap";
 import Contact from "./panels/Contact";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
 		    <Header/>
 		    <Main/>
 		    <Tokenomics/>
-		    <Leet/>
+		    <Roadmap/>
 		    <Contact/>
 		</Layout>
 	    </div>
