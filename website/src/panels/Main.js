@@ -4,7 +4,7 @@ import Greetings from "../components/Greetings"
 const Main = () => {
   return (
     <div className="flex flex-col w-full justify-center items-center bg-opacity-0  h-screen  relative mb-5 ">
-      <div className="flex flex-col  items-center pt-3 justify-evenly    xl:w-3/5 md:w-4/5  bg-white h-screen min-h-fit relative pb-5 px-5 ">
+      <div className="flex flex-col  items-center pt-3 justify-evenly  xl:w-2/5 md:w-4/5  bg-white h-screen min-h-fit relative pb-5 px-5 ">
         <div className="py-6 px-3 bg-black ">
           <Greetings />
           {/* <h1 className="uppercase typing-greetings text-center font-bold text-white text-4xl">GR33TINGS, FR13ND</h1> */}

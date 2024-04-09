@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="flex flex-col w-full justify-center items-center bg-opacity-0  relative mb-5 ">
       <div className="flex flex-col  items-center pt-3 justify-evenly bg-white h-screen min-h-fit relative mb-9 px-5 overflow-scroll  xl:w-2/5 md:w-5/6 sm:w-5/6  ">
         <div className="py-6 px-3 bg-black ">
-          <Greetings />
+            {/* <Greetings /> */}
           <h1 className="uppercase text-center font-bold text-white text-4xl ">
             join us
           </h1>
